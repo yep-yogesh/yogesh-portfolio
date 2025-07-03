@@ -63,22 +63,18 @@ function Contact() {
                 className={`z-40 bg-[#729762] top-25 p-6`}
                 animation={animation}
             >
-                {/* Front: Top content (visible when not flipped) */}
                 <div className={`absolute top-5 left-6 transition-all duration-500 ${isFlipped ? 'opacity-0 rotate-y-90' : 'opacity-100'}`}>
                     <div className="text-[#E7F0DC] font-quicksand text-[15px] leading-tight">
                         Open to opportunities<br />Let's connect!
                     </div>
                 </div>
 
-                {/* Back: Top content (visible when flipped) */}
                 <div className={`absolute top-5 left-6 transition-all duration-500 ${isFlipped ? 'opacity-100' : 'opacity-0 rotate-y-90'}`}>
                     <div className="font-quicksand text-[#E7F0DC] text-2xl">
                          Let’s connect
-                        {/* <span className="italic font-quicksand text-2xl"> Connect</span> */}
                     </div>
                 </div>
                 
-                {/* Top-right arrow icon */}
                 <div 
                     className="absolute top-2.5 right-4 cursor-pointer"
                     onClick={handleFlip}
@@ -90,13 +86,11 @@ function Contact() {
                     />
                 </div>
 
-                {/* Front: Main content */}
                 <div className={`font-playfair mt-[160px] mr-[250px] text-[#E7F0DC] transition-all cursor-pointer duration-500 ${isFlipped ? 'opacity-0 rotate-y-90 absolute' : 'opacity-100'}`}onClick={handleFlip}>
                     <span className="text-4xl">Contact </span>
                     <span className="italic text-4xl">me</span>
                 </div>
 
-                {/* Back: Contact Details */}
                 <div className={`mt-[60px] transition-all duration-500 ${isFlipped ? 'opacity-100' : 'opacity-0 rotate-y-90 absolute'}`}>
                     <div className="font-quicksand text-[#E7F0DC] space-y-4">
                         <div className="flex items-center">
