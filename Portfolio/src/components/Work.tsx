@@ -12,9 +12,9 @@ const projects = [
     isLive: true
   },
   {
-    title: "Cookin'",
-    description: '',
-    image: '/imagee.png',
+    title: 'Cryptiq - Futuristic crypto price converter.',
+    description: 'A sleek, high-performance crypto converter with live pricing, intuitive UI, and instant currency swaps.',
+    image: '/Cryptiq.png',
     url: '#',
     isLive: false
   },
