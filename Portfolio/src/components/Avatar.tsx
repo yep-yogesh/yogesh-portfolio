@@ -37,8 +37,8 @@ const Avatar = forwardRef<
     } else {
         return (
             <motion.div {...animation} className={avatarProps()}>
-                                <img
-                    src="/avatar.jpg" 
+                <img
+                    src="/avatar.jpg"
                     alt="Avatar"
                     className="w-full h-full object-cover"
                 />

@@ -64,24 +64,22 @@ function App() {
     };
 
     return (
-        <>
-            <div
-                className={cn(
-                    'h-screen w-full gap-4 bg-[#445538] p-6',
-                    'sm:grid sm:h-full sm:grid-cols-12 sm:grid-rows-8',
-                    'flex flex-col',
-                )}
-            >
-                <Navigation animation={scaleAnimation} />
-                <Intro />
-                <Avatar asRef ref={ref} />
-                <Avatar animation={avatarAnimation} />
-                <Work />
-                <About />
-                <Contact />
-                <Socials />
-            </div>
-        </>
+        <div
+            className={cn(
+                'h-screen w-full gap-4 bg-[#445538] p-6',
+                'sm:grid sm:h-full sm:grid-cols-12 sm:grid-rows-8',
+                'flex flex-col',
+            )}
+        >
+            <Navigation/>
+            <Intro />
+            <Avatar asRef ref={ref} />
+            <Avatar animation={avatarAnimation} />
+            <Work />
+            <About />
+            <Contact />
+            <Socials />
+        </div>
     );
 }
 

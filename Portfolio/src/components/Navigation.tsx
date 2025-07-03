@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import MotionWrapper from './MotionWrapper';
 import { cn } from '../utils/cn';
 import { FiDownload } from 'react-icons/fi';
@@ -14,8 +14,7 @@ function Navigation() {
 
     useEffect(() => {
         if (ref.current) {
-            const { offsetTop, offsetLeft, clientWidth, clientHeight } =
-                ref.current;
+            const { offsetTop, offsetLeft, clientWidth, clientHeight } = ref.current;
             setDimensions({ offsetTop, offsetLeft, clientWidth, clientHeight });
         }
     }, [ref]);
@@ -58,7 +57,8 @@ function Navigation() {
                 animation={animation}
             >
                 <div className="text-2xl text-[#729762] font-light">
-                    <span className="font-bold">Yogeshwaran </span><span className="italic">Manivannan</span>
+                    <span className="font-bold">Yogeshwaran </span>
+                    <span className="italic">Manivannan</span>
                 </div>
 
                 <a
