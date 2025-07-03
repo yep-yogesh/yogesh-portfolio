@@ -96,7 +96,6 @@ function Socials() {
             </a>
           ))}
           
-          {/* Download Resume Button */}
           <a
             href="/Yogesh-Resume.pdf"
             download

@@ -38,7 +38,7 @@ const Avatar = forwardRef<
         return (
             <motion.div {...animation} className={avatarProps()}>
                                 <img
-                    src="/avatar.jpg" // or '/avatar.jpg' based on your file
+                    src="/avatar.jpg" 
                     alt="Avatar"
                     className="w-full h-full object-cover"
                 />

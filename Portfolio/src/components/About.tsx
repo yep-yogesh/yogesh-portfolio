@@ -29,7 +29,6 @@ function About() {
             const checkOverflow = () => {
                 const element = contentRef.current;
                 if (element) {
-                    // Add small delay to ensure accurate measurement
                     setTimeout(() => {
                         setHasOverflow(element.scrollHeight > element.clientHeight);
                     }, 50);

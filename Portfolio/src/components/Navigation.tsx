@@ -57,12 +57,10 @@ function Navigation() {
                 className="z-40 bg-[#E7F0DC] flex items-center justify-between px-6 py-4 font-playfair text-[#333]"
                 animation={animation}
             >
-                {/* Left: Name */}
                 <div className="text-2xl text-[#729762] font-light">
                     <span className="font-bold">Yogeshwaran </span><span className="italic">Manivannan</span>
                 </div>
 
-                {/* Right: Resume download */}
                 <a
                     href="/Yogesh-Resume.pdf"
                     download
