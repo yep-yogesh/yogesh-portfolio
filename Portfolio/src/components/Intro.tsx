@@ -25,9 +25,9 @@ function Intro() {
         "Figma", "Git", "Github", "Bruno", "API"
     ];
     const line2TechStack = [
-        "Docker", "Postman", "Vite", "JWT", 
-        "HTML", "CSS", "Python", "Java", 
-        "C++", "Vercel", "Render", "Netlify","Vitest","Fuse.js"
+        "Docker", "Postman", "Vite", "JWT",
+        "HTML", "CSS", "Python", "Java",
+        "C++", "Vercel", "Render", "Netlify","Vitest","Fuse.js","Typescript","Bruno",
     ];
 
     const seamlessTechStack = [...techStack, ...techStack, ...techStack];
